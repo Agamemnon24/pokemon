@@ -33,7 +33,7 @@ const getData = () => {
       pokemonNameEl.innerText = pokeName;
       pokeImgEl.innerHTML = `<img src="${poke.sprites.front_default}" width="320px">`;
       pokeDescEl.innerHTML = `
-  <p><b>Name:</b> ${poke.name.charAt(0).toUpperCase() + poke.name.slice(1)}</p>
+  <p><b>Name:</b> ${pokeName}</p>
   <p><b>Type:</b> ${pokeTypes}</p>
   <p><b>Stats:</b> ${pokeStats}</p>
   <p><b>Abilities:</b> ${pokeAbilities} </p>
