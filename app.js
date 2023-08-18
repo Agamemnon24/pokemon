@@ -26,7 +26,6 @@ const getData = () => {
         let random = Math.floor(Math.random() * pokeMoves.length);
         randPokeMoves.push(pokeMoves[random]);
         if (randPokeMoves.length == 7) {
-          console.log(random)
           break;
         }
       }
